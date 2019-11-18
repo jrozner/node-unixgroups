@@ -8,11 +8,19 @@
     "url": "git://github.com/jrozner/node-unixgroups.git"
   },
   "main": "./build/Release/binding.node",
-  "keywords": ["privilege", "permissions", "unix", "groups"],
+  "keywords": [
+    "privilege",
+    "permissions",
+    "unix",
+    "groups"
+  ],
   "engines": {
     "node": ">= 0.12.0"
   },
   "scripts": {
     "install": "node-gyp rebuild"
+  },
+  "dependencies": {
+    "nan": "^2.14.0"
   }
 }
